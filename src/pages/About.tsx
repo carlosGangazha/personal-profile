@@ -1,3 +1,5 @@
+import millerImage from "../assets/carlos.jpg"
+
 export default function About() {
   return (
     <div style={{ fontFamily: "'JetBrains Mono', monospace", background: '#0a0a0a', color: '#d0d0d0', minHeight: '100vh' }}>
@@ -73,7 +75,7 @@ export default function About() {
         <div className="grid">
           <aside className="sidebar">
             <div className="profile-wrap">
-              <img src="/assets/profile.jpg" alt="Profile" />
+              <img src={millerImage} alt="Profile" />
             </div>
             <div className="stack-box">
               <div className="stack-box-title">// tech_stack</div>
