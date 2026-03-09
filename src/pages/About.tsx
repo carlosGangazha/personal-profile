@@ -67,7 +67,7 @@ export default function About() {
         <div className="header-inner">
           <div className="page-tag">about_me</div>
           <h1 className="page-title">Who <span className="g">I Am.</span></h1>
-          <p className="page-sub">Fullstack developer. Problem solver. Passionate about clean code and scalable systems.</p>
+          <p className="page-sub">Junior Fullstack developer. Problem solver. Passionate about coding and scalable systems.</p>
         </div>
       </header>
 
@@ -94,7 +94,7 @@ export default function About() {
                   <span className="sg-tag">Java</span>
                   <span className="sg-tag">Spring Boot</span>
                   <span className="sg-tag">PostgreSQL</span>
-                  <span className="sg-tag">REST APIs</span>
+                  <span className="sg-tag">Fast Api</span>
                 </div>
               </div>
               <div className="stack-group">
@@ -111,11 +111,11 @@ export default function About() {
           <article className="content">
             <div className="block">
               <h2 className="block-heading">About</h2>
-              <p className="block-text">I'm a fullstack developer with a passion for building scalable, maintainable applications that solve real-world problems. With expertise spanning frontend, backend, and mobile development, I love creating seamless user experiences backed by robust server-side architecture.</p>
+              <p className="block-text">I'm a junior developer with a passion for building scalable, maintainable applications that solve real-world problems. With expertise spanning frontend, backend, and mobile development, I love creating seamless user experiences backed by robust server-side architecture.</p>
             </div>
             <div className="block">
               <h2 className="block-heading">Journey</h2>
-              <p className="block-text">My development journey started with web technologies and gradually expanded to include backend development with Java and Spring Boot. More recently, I've dived into mobile development with Flutter, bringing my web expertise to iOS and Android.</p>
+              <p className="block-text">My development journey started with web technologies as school projects and gradually expanded to include backend development with Java and Spring Boot. More recently, I've dived into mobile development with Flutter, bringing my web expertise Android.</p>
               <p className="block-text">Great software is built on clean code, thoughtful architecture, and a deep understanding of user needs.</p>
             </div>
             <div className="block">
@@ -124,9 +124,9 @@ export default function About() {
                 {[
                   'Clean, maintainable code that other developers enjoy reading',
                   'Building performant applications that delight users',
-                  'Sharing knowledge and helping other developers grow',
+                  'Sharing knowledge and get help from other senior devs to grow',
                   'Exploring emerging technologies and best practices',
-                  'Open source contributions to the developer community',
+                  'Participating in cyber security CTFs to learn new vulnerabilities',
                 ].map((item, i) => (
                   <li key={i} className="passion-item">{item}</li>
                 ))}
@@ -136,7 +136,7 @@ export default function About() {
               <h2 className="block-heading">Connect</h2>
               <p className="block-text">Always open to discussing new projects, technologies, or opportunities.</p>
               <div className="connect-links">
-                <a href="mailto:hello@example.com" className="link-btn primary">Email Me →</a>
+                <a href="mailto:carlosgangazha1@gmail.com" className="link-btn primary">Email Me →</a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="link-btn">GitHub</a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="link-btn">LinkedIn</a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="link-btn">Twitter</a>
