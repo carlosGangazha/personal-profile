@@ -82,10 +82,11 @@ export default function About() {
               <div className="stack-group">
                 <div className="sg-label">Frontend</div>
                 <div className="sg-tags">
-                  <span className="sg-tag">React 19</span>
+                  <span className="sg-tag">React/Angular</span>
                   <span className="sg-tag">TypeScript</span>
                   <span className="sg-tag">Tailwind</span>
                   <span className="sg-tag">Next.js</span>
+                  <span className="sg-tag">Vercel Blob</span>
                 </div>
               </div>
               <div className="stack-group">
@@ -95,6 +96,7 @@ export default function About() {
                   <span className="sg-tag">Spring Boot</span>
                   <span className="sg-tag">PostgreSQL</span>
                   <span className="sg-tag">Fast Api</span>
+                  <span className="sg-tag">Docker</span>
                 </div>
               </div>
               <div className="stack-group">
